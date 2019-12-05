@@ -1,0 +1,103 @@
+/* ---- Global Overrides ---- */
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #777;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ---- Header ---- */
+
+.main-global-container {
+    flex: 1 0 auto;
+    background-image: url("../images/email-pattern.png");
+    background-repeat: repeat;
+}
+
+#nav-name {
+	background: #4aaaa5;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: .25rem;
+	border:2px #4aaaa5 solid;
+}
+
+#nav-name:hover {
+	background: #fff;
+	color: #4aaaa5;
+}
+
+.sub-heading {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ddd;
+    color: #4aaaa5;
+}
+
+/* ---- Main Content ---- */
+
+.main-content-container {
+	background: #fff;
+	margin-top: 50px;
+}
+
+.content-block {
+	padding: 15px;
+}
+
+.content-block p {
+    line-height: 32px;
+}
+
+#about-image {
+	float: left;
+	width: 200px;
+	padding:0 20px 20px 0;
+}
+
+.image-container {
+	position: relative;
+}
+
+.image-container:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.portfolio-label {
+	position: absolute;
+	color: #fff;
+	bottom: 20px;
+	background-color: #4aaaa5;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.btn-primary {
+	background-color: #4aaaa5;
+	border-color: #4aaaa5;
+}
+
+/* ---- Footer ---- */
+
+.footer {
+	border-top: 4px solid #4aaaa5;
+    background-color: #666;
+	color: #ccc;
+	font-size: 14px;
+}
+
+.footer-content {
+	min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
